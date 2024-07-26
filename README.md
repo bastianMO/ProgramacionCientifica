@@ -8,7 +8,7 @@
 Este proyecto abarca dos aspectos, el primero es la limpieza y exploración de datos que se obtuvieron de mediciones de paginas del gobierno de Chile, los datos estan asociados a temperatura media, cantidad de mp10, cantidad de mp2.5 y cantidad de SO2.
 Luego de la limpieza y exploración de los datos realizado en jupyter notebook guardamos los datos para luego utilizarlos para entrenar un modelo de regresion linea. Usando la herramienta pickle guardamos el modelo para re utilizarlo en la pagina web montada con la libreria streamlit.
 
-Para iniciar el codigo de la web se debe usar el comando streamlit run main.py.
+Para iniciar el codigo de la web se debe usar el comando ```sh streamlit run main.py.
 
 Y si se quisiera reemplazar el modelo se deben hacer modificaciones a la función train_model()
 
