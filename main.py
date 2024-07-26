@@ -123,7 +123,7 @@ def train_model():
 
 def the_main(sns=None):
     # Cargar los datos
-    df = pd.read_excel('D:/Notebook//data/datos_finales.xlsx')
+    df = pd.read_excel('/data/datos_finales.xlsx')
 
     print(f"Using current path: {Path.cwd()} !!")
     # Load the pre-trained model
