@@ -5,8 +5,7 @@
 
 ## Description
 
-Este proyecto abarca dos aspectos, el primero es la limpieza y exploración de datos que se obtuvieron de mediciones de paginas del gobierno de Chile, los datos estan asociados a temperatura media, cantidad de mp10, cantidad de mp2.5 y cantidad de SO2.
-Luego de la limpieza y exploración de los datos realizado en jupyter notebook guardamos los datos para luego utilizarlos para entrenar un modelo de regresion linea. Usando la herramienta pickle guardamos el modelo para re utilizarlo en la pagina web montada con la libreria streamlit.
+Este proyecto abarca dos aspectos: El primero es la limpieza y exploración de datos obtenidos de mediciones de páginas del gobierno de Chile. Los datos están asociados a la temperatura media, cantidad de MP10, cantidad de MP2.5 y cantidad de SO2. El segundo es la limpieza y exploración de los datos que se realizó en Jupyter Notebook, estos fueron guardados para usarlos posteriormente en el entrenamiento de un modelo de regresión lineal. Usando la herramienta Pickle, se guardó el modelo para reutilizarlo en la página web montada con la librería Streamlit.
 
 Para iniciar el codigo de la web se debe usar el comando 
 ```sh 
